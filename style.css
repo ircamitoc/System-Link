@@ -80,18 +80,18 @@ a{
 }
 
 .btn a:first-child{
-  background: #1da1f2;
+  background: #4169e1;
 }
 .btn a:last-child{
-  background: blueviolet;
+  background: #cb4154;
 }
 .btn a:first-child:hover{
   background: transparent;
-  border: 1px solid #1da1f2;
-  color: #1da1f2;
+  border: 1px solid #4169e1;
+  color: #4169e1;
 }
 .btn a:last-child:hover{
   background: transparent;
-  border: 1px solid blueviolet;
-  color: blueviolet;
+  border: 1px solid #cb4154;
+  color: #cb4154;
 }
