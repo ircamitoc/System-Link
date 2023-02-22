@@ -1,151 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #D49157;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1da1f2;
+  font-family: "Poppins", sans-serif;
 }
 
-.container{
-    position:relative;
-    width: 1200px;
-    height: 300px;
-    margin: 240px auto;
+.wrapper{
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
-.container .box{
-    position: relative;
-    width: calc(600px - 30px);
-    height: calc(300px - 30px);
-    background: #000;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
+.img-logo{
+  width: 120px;
+  height: 120px;
+  background: purple;
+  border-radius: 50%;
+  position: relative;
+  top: -70px;
+  left: 190px;
+}
+img{
+  width: 120px;
+  padding: 10px;
 }
 
-.container .box .icon{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #f00;
-    transition: 0.5s;
-    z-index: 1;
+h3{
+  margin-top: -50px;
+  color: purple;
+}
+p{
+  margin-top: 5px;
+}
+.media-info{
+  margin-top: 10px;
 }
 
-.container .box:hover .icon{
-    top: 20px;
-    left: calc(50% - 40px);
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+ul{
+  list-style: none;
+  display: flex;
 }
 
-.container .box .icon .fa{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    transition: 0.5s;
-    color: #fff;
+ul li{
+  margin: 15px auto;
+  font-size: 15px;
+}
+span{
+  font-weight: 600;
+  color: rgb(43, 39, 39);
+  display: block;
+  text-align: center;
+}
+.icons{
+  margin-top: 30px;
+}
+.icons a{
+  color: white;
+  text-align: center;
+  margin: 25px;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-
-
-
-
-
-h1, h2{
-    color: #fff;
+i{
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
 }
 
-h1{
-    text-align: center;
-    align-items: start;
+.icons a:first-child{
+  background: blue;
+}
+.icons a:nth-child(2){
+  background: rgb(158, 21, 117);
+}
+.icons a:nth-child(3){
+  background: red;
+}
+.icons a:nth-child(4){
+  background: black;
+}
+.icons a:nth-child(5){
+  background: blueviolet;
 }
 
-a{
-    position: relative;
-    background: #fff;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    letter-spacing: 0.1em;
-    font-weight: 400;
-    padding: 10px 30px;
-    transition: 0.5s;
+.icons a:hover{
+  color: black;
+  background: transparent;
+  border: 1px solid black;
 }
 
-a:hover{
-    background: var(--clr);
-    color: var(--clr);
-    letter-spacing: 0.25em;
-    box-shadow: 0 0 35px var(--clr);
+.btn{
+  margin-top: 40px;
 }
 
-a:before{
-    content: '';
-    position: absolute;
-    inset: 2px;
-    background: #D49157;
+button{
+  margin: 20px;
+  width: 180px;
+  height: 50px;
+  border: none;
+  padding: 10px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 30px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
 }
 
-a span{
-    position: relative;
-    z-index: 1;
+.btn button:first-child{
+  background: #1da1f2;
 }
-
-a i{
-    position: absolute;
-    inset: 0;
-    display: block;
+.btn button:last-child{
+  background: blueviolet;
 }
-
-a i:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 80%;
-    width: 10px;
-    height: 4px;
-    background: #D49157;
-    transform: translateX(50%) skewX(325deg);
-    transition: 0.5s;
+.btn button:first-child:hover{
+  background: transparent;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
 }
-
-a:hover i:before{
-    width: 20px;
-    left: 20%;
-}
-
-a i:after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 20%;
-    width: 10px;
-    height: 4px;
-    background: #D49157;
-    transform: translateX(50%) skewX(325deg);
-    transition: 0.5s;
-}
-
-a:hover i:after{
-    width: 20px;
-    left: 80%;
+.btn button:last-child:hover{
+  background: transparent;
+  border: 1px solid blueviolet;
+  color: blueviolet;
 }
