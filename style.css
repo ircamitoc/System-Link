@@ -32,6 +32,8 @@ body{
     float: left;
     margin: 15px;
     box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 
