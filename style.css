@@ -12,9 +12,18 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #27282c;
+    background: #D49157;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
+}
+
+h1, h2{
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    align-items: start;
 }
 
 a{
@@ -41,7 +50,7 @@ a:before{
     content: '';
     position: absolute;
     inset: 2px;
-    background: #27282c;
+    background: #D49157;
 }
 
 a span{
@@ -62,7 +71,7 @@ a i:before{
     left: 80%;
     width: 10px;
     height: 4px;
-    background: #27282c;
+    background: #D49157;
     transform: translateX(50%) skewX(325deg);
     transition: 0.5s;
 }
@@ -79,7 +88,7 @@ a i:after{
     left: 20%;
     width: 10px;
     height: 4px;
-    background: #27282c;
+    background: #D49157;
     transform: translateX(50%) skewX(325deg);
     transition: 0.5s;
 }
