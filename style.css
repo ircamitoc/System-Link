@@ -24,20 +24,31 @@ body{
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
+.wrapper2{
+    width: auto;
+    max-width: 550px;
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
 .img-logo{
   width: 120px;
   height: 120px;
   background: purple;
   position: relative;
-  top: -70px;
-  left: 190px;
+  top: -50px;
+  left: 175px;
 }
 img{
-  width: 120px;
+  width: 150px;
 }
 
 h2{
-  margin-top: -50px;
+  /*margin-top: -50px;*/
   color: #D49157;
 }
 p{
@@ -77,6 +88,7 @@ a{
   border-radius: 30px;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
   text-decoration: none;
+  flex-direction: column;
 }
 
 .btn a:first-child{
