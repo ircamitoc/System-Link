@@ -10,7 +10,7 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #1da1f2;
+  background: #D49157;
   font-family: "Poppins", sans-serif;
 }
 
@@ -36,9 +36,9 @@ img{
   width: 120px;
 }
 
-h3{
+h2{
   margin-top: -50px;
-  color: purple;
+  color: #D49157;
 }
 p{
   margin-top: 5px;
@@ -76,6 +76,7 @@ a{
   font-weight: 600;
   border-radius: 30px;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
 }
 
 .btn a:first-child{
