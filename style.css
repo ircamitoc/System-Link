@@ -22,8 +22,18 @@ body{
     width: 1200px;
     height: 300px;
     margin: 240px auto;
-    background: #000;
 }
+
+.container .box{
+    position: relative;
+    width: calc(600px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
 
 h1, h2{
     color: #fff;
